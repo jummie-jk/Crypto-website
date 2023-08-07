@@ -1,10 +1,13 @@
 import React from "react";
-
+import Navbar from './NavBar';
 function Hero() {
     return (
           <>
-             <div>
-                <h1>Let's do this!</h1>
+             <div className="hero--Section wavy-edge">
+                  <Navbar/>
+                  <div>
+                     
+                  </div>
              </div>
           </>
     );

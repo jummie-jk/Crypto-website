@@ -22,8 +22,8 @@ ul{
 .cryptus--logo{
   display: flex;
   flex-direction: row;
-  margin-top: -2rem;
-  padding-right: 8rem;
+  margin-top: -1rem;
+  padding-right: 6rem;
   color: white;
   text-decoration: none;
 }
@@ -41,7 +41,7 @@ ul{
    display: flex;
    justify-content: center;
    text-align: center;
-   margin-right: 2rem; 
+   margin-right: 1rem; 
    text-decoration: none;
  }
 .nav--lists li{
@@ -100,6 +100,15 @@ li .active{
   width: 11rem;
   cursor: pointer;
 }
+.btn-primary{
+  margin-left: 3rem;
+}
+.btn-secondary{
+  background: #EB5757;
+  color: white;
+  width: 13rem;
+  margin-top: 3rem; 
+}
 .btn{
   background: transparent;
 }
@@ -109,4 +118,43 @@ li .active{
 .btn:active{
   transform: translateY(-1px);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hero */
+.hero--content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.hero--text{
+  margin-top: 9rem;
+  color: white;
+}
+.hero--text--main{
+  font-family: Poppins;
+  font-size: 6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.hero--text p {
+  font-family: Inter;
+  font-size: 1.7rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.8rem; /* 164.706% */
+}
+.crypto--page{
+  background: #1B004E;
+  height: 60vh;
+}
+.crypto--text{
+  color: var(--white, #FFF);
+  padding-top: 4rem;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
 }

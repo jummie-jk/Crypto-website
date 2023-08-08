@@ -1,15 +1,10 @@
 import React from 'react';
-import { useNavigate } from "react-router-dom";
 import logo from '../images/logo.png';
 import { Link } from 'react-router-dom';
 import Button from './button';
 
 const Navbar = () => {
-  const navigate = useNavigate();
-
-  const handleButtonClick = () => {
-    navigate('/Login');
-  };
+  
 
   return (
       <>
@@ -29,15 +24,15 @@ const Navbar = () => {
               <li><Link to="/" className='nav--list'>Home</Link></li>
               <li><Link to="/contact" className='nav--list' >Company</Link></li>
               <li><Link to="/contact" className='nav--list'>About</Link></li>
-              <li><Link to="/contact" className='nav--list'>Pricing</Link></li>
+              <li><Link to="/crypto" className='nav--list'>Pricing</Link></li>
               <li><Link to="/contact" className='nav--list'>Team</Link></li>
               <li><Link to="/contact" className='nav--list'>Contact</Link></li>
               <li><Link to="/contact" className='nav--list'>Blog</Link></li>
               <li>
-                <Button onClick={handleButtonClick} className="button btn">Sign Up</Button>
+                <Button className="button btn btn-primary" to="/login">Sign Up</Button>
               </li>
               <li>
-                <Button onClick={handleButtonClick} className="button btn">Login</Button>
+                <Button className="button btn" to="/signin">Sign In</Button>
               </li>
             </ul>
           </nav>

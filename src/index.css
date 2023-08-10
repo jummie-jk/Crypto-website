@@ -125,7 +125,7 @@ li .active{
   color: white;
   padding: 10px 20px;
   border: 1px;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
   border-radius: 1.5rem;
   cursor: pointer;
   width: 20rem;
@@ -215,6 +215,7 @@ li .active{
 .input-field{
   width: 30rem; 
   padding: 1rem;
+  margin-bottom: 1rem;
   border: 1px solid black; 
   border-radius: 20px; 
   outline: none; 

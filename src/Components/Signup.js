@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import Button from "./button";
 import { Link } from 'react-router-dom';
 
-function Login() {
+function SignUp() {
 
 const [userDetails , setUserDetails] = useState (
    {
@@ -26,7 +26,7 @@ const handleSubmit = (e) => {
              <div className="login--page">
                 <div className="login--page--form" >
                    <form onSubmit={handleSubmit}>
-                     <p className="login--text">Login</p>
+                     <p className="login--text">Sign Up</p>
                      <p>Username:</p>
                      <input type="text" name="username" placeholder="Enter your username" className="input-field" value={userDetails.username} onChange={handleChange}></input>
                      <p>Email:</p>
@@ -36,7 +36,7 @@ const handleSubmit = (e) => {
                      <div className="form--submit">
                         <Button className="button btn-tertiary">Submit</Button>
                         <p>Already have an account? 
-                           <Link to="/signin" className=''> Sign-in
+                           <Link to="/signin" className=''> sign-in
                            </Link>
                         </p>
                         <p>Go back to 
@@ -51,4 +51,4 @@ const handleSubmit = (e) => {
     );
   }
   
-  export default Login;
+  export default SignUp;

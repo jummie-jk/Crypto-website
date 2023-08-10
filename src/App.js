@@ -3,7 +3,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Hero from './Components/Herosection';
 import ContactUs from './Components/Contact';
-import Login from './Components/Login';
+import SignUp from './Components/Signup';
 import CryptoPrice from './Components/Crypto';
 import Signin from './Components/Signin';
 
@@ -14,7 +14,7 @@ function App() {
                 <Routes>
                 <Route exact path="/" element={<Hero />} />
                 <Route path="/contact" element={<ContactUs />} />
-                <Route path="/login" element={<Login />} />
+                <Route path="/login" element={<SignUp />} />
                 <Route path="/crypto" element={<CryptoPrice />} />
                 <Route path="/signin" element={<Signin />} />
                 </Routes>

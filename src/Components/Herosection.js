@@ -13,7 +13,7 @@ function Hero() {
                         <h1 className="hero--text--main">Make better business<br></br> with Cryptocurrency</h1>
                         <p>We offers users a fully operational long-term rental platform.<br></br>
                          It plans to leverages blockchain technology.</p>
-                        <Button className="button btn-secondary" to="/login">Get Started</Button>
+                        <Button className="button btn-secondary" to="/signup">Get Started</Button>
                      </div>
                      <div>
                            <img

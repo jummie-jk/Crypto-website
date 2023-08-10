@@ -29,7 +29,7 @@ const Navbar = () => {
               <li><Link to="/contact" className='nav--list'>Contact</Link></li>
               <li><Link to="/contact" className='nav--list'>Blog</Link></li>
               <li>
-                <Button className="button btn btn-primary" to="/login">Sign Up</Button>
+                <Button className="button btn btn-primary" to="/login">Login</Button>
               </li>
               <li>
                 <Button className="button btn" to="/signin">Sign In</Button>

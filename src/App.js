@@ -5,6 +5,7 @@ import Hero from './Components/Herosection';
 import ContactUs from './Components/Contact';
 import Login from './Components/Login';
 import CryptoPrice from './Components/Crypto';
+import Signin from './Components/Signin';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Route path="/contact" element={<ContactUs />} />
                 <Route path="/login" element={<Login />} />
                 <Route path="/crypto" element={<CryptoPrice />} />
+                <Route path="/signin" element={<Signin />} />
                 </Routes>
             </BrowserRouter>
           </>

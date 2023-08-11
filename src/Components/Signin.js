@@ -34,11 +34,11 @@ const Signin = () => {
                           <div className="form--submit">
                              <Button className="button btn-tertiary">Submit</Button>
                              <p>Don't have an account? 
-                                <Link to="/signup" className=''> create one
+                                <Link to="/signup" className='page-nav-text'> create one
                                 </Link>
                              </p>
                              <p>Go back to 
-                                <Link to="/" className=''> homepage
+                                <Link to="/" className='page-nav-text'> homepage
                                 </Link>
                              </p>
                           </div>

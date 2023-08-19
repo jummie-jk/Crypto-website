@@ -154,20 +154,6 @@ li .active {
   font-weight: 400;
   line-height: 2.8rem; /* 164.706% */
 }
-.crypto--page {
-  background: #1b004e;
-  height: 60vh;
-}
-.crypto--text {
-  color: var(--white, #fff);
-  padding-top: 4rem;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-align: center;
-}
 .login--page {
   background: linear-gradient(197deg, #220076 0%, #4e0062 100%);
   height: 100vh;
@@ -226,4 +212,119 @@ li .active {
 .form--submit .page-nav-text{
   /* text-decoration: none; */
   color: black;
+}
+.crypto--page {
+  background: #1b004e;
+  height: 100vh;
+  color: white;
+}
+.crypto--text {
+  color: var(--white, #fff);
+  padding-top: 6rem;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.coins--list{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 1.5rem;
+  padding: .7rem 8rem;
+
+}
+.coins--list-heading{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 1.5rem;
+  padding: .7rem 8rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.coin--img{
+  width: auto;
+  height: 2.5rem;
+  margin: 1rem;
+}
+.coin--description{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.coin-symbol{
+  color: #ffffffc1;
+  padding-left: 0.5rem;
+}
+.aboutus--main{
+  height: 63vh;
+}
+.aboutus--main--text{
+  color: black;
+  padding-top: 6rem;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.about-us-list{
+  display: flex;
+  padding: 2rem 20rem; 
+  justify-content: space-between;
+}
+.about-us-list p{
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px; /* 100% */
+  padding-top: 1rem;
+}
+.about-us-list h3{
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px; /* 58.333% */
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.phone-section{
+  background: #1b004e;
+  padding: 10rem 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+.phone--text{
+  color: #fff;
+}
+.phone--text h3{
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.phone--text p{
+  font-family: Inter;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 164.706% */
+  padding-bottom: 5rem;
+}
+.phone--btn :first-child{
+  padding-right: 3rem;
 }

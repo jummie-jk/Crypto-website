@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Hero from './Components/Herosection';
 import ContactUs from './Components/Contact';
 import Login from './Components/Login';
-import CryptoPrice from './Components/Crypto';
+import CryptoPrice from './Components/CryptoCoins';
 
 function Navigation() {
     return (

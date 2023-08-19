@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Hero from './Components/Herosection';
 import ContactUs from './Components/Contact';
 import SignUp from './Components/Signup';
-import CryptoPrice from './Components/Crypto';
+import CryptoPrice from './Components/CryptoCoins';
 import Signin from './Components/Signin';
 
 function App() {

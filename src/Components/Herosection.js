@@ -2,7 +2,9 @@ import React from "react";
 import Navbar from "./NavBar";
 import Button from "./button";
 import coin from "../images/coin.png";
-import CryptoPrice from "./Crypto";
+import CryptoPrice from "./CryptoCoins";
+import AboutUs from "./AboutUs";
+import PhoneApp from "./PhoneApp";
 function Hero() {
   return (
     <>
@@ -28,6 +30,8 @@ function Hero() {
         </div>
       </div>
       <CryptoPrice />
+      <AboutUs />
+      <PhoneApp />
     </>
   );
 }

@@ -35,5 +35,6 @@ function Hero() {
     </>
   );
 }
-
 export default Hero;
+
+// curl -X 'GET' \ 'https://api.coingecko.com/api/v3/search/trending' \ -H 'accept: application/json'

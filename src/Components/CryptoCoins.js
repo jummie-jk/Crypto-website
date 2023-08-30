@@ -12,7 +12,7 @@ function CryptoPrice() {
       .get(url)
       .then((response) => {
         setCoin(response.data);
-        console.log(response.data[0]);
+        // console.log(response.data[0]);
       })
       .catch((error) => {
         console.log(error);

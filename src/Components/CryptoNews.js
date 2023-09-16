@@ -5,18 +5,16 @@ const CryptoNews = () => {
   const url = 'https://api.coingecko.com/api/v3/search/trending';
 
   useEffect(() => {
-    // Use an empty dependency array to ensure this effect runs only once on component mount
     axios
       .get(url)
       .then((response) => {
-        // Update the state with the fetched data
-        setNews(response.data.coins); // Assuming you want the 'coins' array from the response
+        setNews(response.data.coins); 
         console.log(response.data.coins);
       })
       .catch((error) => {
         console.log(error);
       });
-  }, []); // Empty dependency array means this effect runs only once
+  }, []); 
 
   return (
     <>

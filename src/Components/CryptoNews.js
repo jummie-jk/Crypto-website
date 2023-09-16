@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 const CryptoNews = () => {
-  const [news, setNews] = useState([]); // Initialize news as an empty array
+  const [news, setNews] = useState([]);
   const url = 'https://api.coingecko.com/api/v3/search/trending';
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const CryptoNews = () => {
                     <p className='trending-p'><strong>Price:</strong> {item.item.price_btc}</p>
                     <p className='trending-p'>{item.item.symbol}</p>
                    
-                </li>
+                </li> 
             ))}
              </div> 
             </ul>

@@ -5,6 +5,9 @@ import coin from "../images/coin.png";
 import CryptoPrice from "./CryptoCoins";
 import AboutUs from "./AboutUs";
 import PhoneApp from "./PhoneApp";
+import CryptoNews from "./CryptoNews";
+import Subscribe from "./Subscribe";
+import Footer from "./footer";
 function Hero() {
   return (
     <>
@@ -32,6 +35,9 @@ function Hero() {
       <CryptoPrice />
       <AboutUs />
       <PhoneApp />
+      <CryptoNews/>
+      <Subscribe/>
+      <Footer/>
     </>
   );
 }

@@ -1,0 +1,30 @@
+.subscribe-main{
+    background-color: #1B004E;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    padding-top: 3rem;
+}
+.subcribe-block{
+    text-align: center;
+}
+.subscribe-text-main{
+    color: white;
+    padding-top: 6rem;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.subscribe-text{
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+.footer-main{
+    background: linear-gradient(197deg, #4e0062 0%, #220076 100%);
+    color: #BCBCBC;
+   
+}
+.footer-flex{
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-flex p{
+   font-size: 1.5rem;
+   padding: 1rem 7rem;
+}
+.footer-copy-right{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    padding-bottom: 5rem;
+}

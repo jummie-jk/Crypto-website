@@ -27,10 +27,13 @@ const CryptoNews = () => {
                 <li key={item.item.id}>
                    
                     <img className="trending-img" src={item.item.large} alt={item.item.name} />
-                    <h2 className="trending-name" >{item.item.name}</h2>
+                    <div>
+                        <h2 className="trending-name" >{item.item.name}</h2>
+                        <p className='trending-p trending-symbol'>{item.item.symbol}</p>
+                    </div>
                     <p className='trending-p'><strong>Market Cap Rank:</strong> {item.item.market_cap_rank}</p>
-                    <p className='trending-p'><strong>Price:</strong> {item.item.price_btc}</p>
-                    <p className='trending-p'>{item.item.symbol}</p>
+                    {/* <p className='trending-p'><strong>Price:</strong> {item.item.price_btc}</p> */}
+                   
                    
                 </li> 
             ))}

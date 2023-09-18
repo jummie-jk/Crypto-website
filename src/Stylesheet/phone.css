@@ -1,0 +1,51 @@
+.phone-section{
+    background: #1b004e;
+    padding: 10rem 10rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .phone--text{
+    color: #fff;
+  }
+  .phone--text h3{
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .phone--text p{
+    font-family: Inter;
+    font-size: 1.7rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 164.706% */
+    padding-bottom: 5rem;
+  }
+  .phone--btn :first-child{
+    padding-right: 3rem;
+  }
+  
+  @media screen and (max-width: 1250px) {
+    .phone-section{
+        padding: 8rem 8rem;
+      }
+      .phone--text h3{
+        font-size: 3rem;
+      }
+      .phone--text p{
+        font-size: 1.5rem;
+      }
+  }
+    @media screen and (max-width: 1100px) {
+        .phone-section{
+            padding: 6rem 6rem;
+          }
+          .phone--text h3{
+            font-size: 2.5rem;
+          }
+          .phone--text p{
+            font-size: 1.3rem;
+          }
+    
+  }

@@ -1,0 +1,88 @@
+/* Navigation */
+.cryptus--logo {
+    display: flex;
+    flex-direction: row;
+    margin-top: -1rem;
+    padding-right: 6rem;
+    color: white;
+    text-decoration: none;
+  }
+  .logo-text {
+    padding-top: 1.2rem;
+    padding-left: -6rem;
+    font-family: Poppins;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    text-transform: uppercase;
+  }
+  .navbar--main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-right: 1rem;
+    text-decoration: none;
+  }
+  .nav--lists li {
+    color: white;
+    float: left;
+    display: inline;
+    font-size: 1.2rem;
+    padding: 0 3rem 0 3rem;
+    margin-top: 3.5rem;
+    font-family: "Nunito Sans", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .nav--list {
+    color: white;
+    text-decoration: none;
+  }
+  li {
+    color: white;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 141.176% */
+  }
+  li:a {
+    text-decoration: none;
+    color: white;
+  }
+  li .active {
+    color: white;
+  }
+  @media screen and (max-width: 1250px) {
+    .cryptus--logo {
+      padding-right: 3rem;
+    }
+    .nav--lists li {
+      font-size: 1.2rem;
+      padding: 0 2.5rem 0 2.5rem;
+    }
+    
+  }
+    @media screen and (max-width: 1100px) {
+    .cryptus--logo {
+      padding-right: 1.5rem;
+    }
+    .nav--lists li {
+      font-size: 1.1rem;
+      padding: 0 2rem 0 2rem;
+    }
+    
+  }
+  @media screen and (max-width: 920px) {
+    .cryptus--logo {
+      padding-right: 1rem;
+    }
+    .nav--lists li {
+      font-size: 1.1rem;
+      padding: 0 1rem 0 1rem;
+    }
+    
+  }
+

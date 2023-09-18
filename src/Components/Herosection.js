@@ -28,7 +28,7 @@ function Hero() {
             </Button>
           </div>
           <div>
-            <img src={coin} alt="bit-coin" className="hero--image" />
+            <img src={coin} alt="bit-coin" className="hero--image image hide-mobile" />
           </div>
         </div>
       </div>

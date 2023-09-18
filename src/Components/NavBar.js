@@ -25,9 +25,7 @@ const Navbar = () => {
               <li><Link to="/contact" className='nav--list' >Company</Link></li>
               <li><Link to="/contact" className='nav--list'>About</Link></li>
               <li><Link to="/crypto" className='nav--list'>Pricing</Link></li>
-              <li><Link to="/contact" className='nav--list'>Team</Link></li>
               <li><Link to="/contact" className='nav--list'>Contact</Link></li>
-              <li><Link to="/contact" className='nav--list'>Blog</Link></li>
               <li>
                 <Button className="button btn btn-primary" to="/signup">Sign Up</Button>
               </li>

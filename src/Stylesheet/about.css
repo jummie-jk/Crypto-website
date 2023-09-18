@@ -1,0 +1,47 @@
+.aboutus--main{
+    /* height: 63vh; */
+    padding-bottom: 3rem;
+  }
+  .aboutus--main--text{
+    color: black;
+    padding-top: 6rem;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .about-us-list{
+    display: flex;
+    padding: 2rem 20rem; 
+    justify-content: space-between;
+  }
+  .about-us-list p{
+    font-family: Inter;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 1.7rem; /* 100% */
+    padding-top: 1rem;
+  }
+  .about-us-list h3{
+    color: #000;
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.4rem; /* 58.333% */
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  @media screen and (max-width: 1250px) {
+    .about-us-list{
+        padding: 2rem 12rem; 
+      }
+  }
+    @media screen and (max-width: 1100px) {
+        .about-us-list{
+            padding: 2rem 10rem; 
+          }
+    
+  }

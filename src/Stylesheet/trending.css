@@ -1,0 +1,81 @@
+.trending-block, .trending-block li{
+    color: black;
+    font-family: Poppins;
+  }
+.trending--main--text{
+    color: black;
+    padding-top: 6rem;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+.trending-coins-all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.trending-symbol{
+  color: #959595;
+}
+.trending-coins-all li{
+    list-style: none;
+    padding: 2rem 3rem;
+}
+  .trending-img{
+    height: 8rem;
+    width: 8rem;
+  }
+.trending-name{
+    font-size: 2rem;
+}
+.trending-p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+@media screen and (max-width: 1250px) {
+  .trending-coins-all li{
+    list-style: none;
+    padding: 2rem 2rem;
+}
+  .trending-img{
+    height: 7rem;
+    width: 7rem;
+  }
+.trending-name{
+    font-size: 2rem;
+}
+}
+  @media screen and (max-width: 1100px) {
+    .trending-coins-all li{
+      list-style: none;
+      padding: 2rem 1.5rem;
+  }
+    .trending-img{
+      height: 6.5rem;
+      width: 6.5rem;
+    }
+  .trending-name{
+      font-size: 2rem;
+  }
+  
+}
+@media screen and (max-width: 920px) {
+ 
+  
+}
+
+/* @media screen and (max-width: 1100px) {
+  .trending-coins-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+} */

@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import './trending.css';
-import './subscribe.css';
-import './footer.css';
+import './Stylesheet/index.css';
+import './Stylesheet/trending.css';
+import './Stylesheet/subscribe.css';
+import './Stylesheet/footer.css';
+import './Stylesheet/nav.css';
+import './Stylesheet/btn.css';
+import './Stylesheet/about.css';
+import './Stylesheet/phone.css';
+import './Stylesheet/login.css';
+import './Stylesheet/coinslist.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

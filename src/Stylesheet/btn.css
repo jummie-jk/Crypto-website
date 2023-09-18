@@ -1,0 +1,54 @@
+/* Button */
+.button {
+    border: 0.15rem solid #eb5757;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: -2rem;
+    width: 11rem;
+    cursor: pointer;
+  }
+  .button:a {
+    border: 0.15rem solid #eb5757;
+    border-radius: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: -2rem;
+    width: 11rem;
+    cursor: pointer;
+  }
+  .btn-primary {
+    margin-left: 3rem;
+  }
+  .btn-secondary {
+    background: #eb5757;
+    color: white;
+    width: 13rem;
+    margin-top: 3rem;
+  }
+  .btn {
+    background: transparent;
+  }
+  .btn:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  .btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .btn-tertiary {
+    /* background: linear-gradient(197deg, #220076 0%, #4E0062 100%); */
+    background: linear-gradient(to left, #220076, #4e0062);
+    color: white;
+    padding: 10px 20px;
+    border: 1px;
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    width: 20rem;
+    margin-bottom: 1.5rem;
+  }

@@ -7,7 +7,7 @@ const Coins = (props) => {
             <div>
                 <div>
                     <div className="coins--list-heading">
-                        <p>#</p>
+                        <p className="hide-crypto">#</p>
                         <p>Name</p>
                         <p>Current price</p>
                         <p>24hrs %</p>

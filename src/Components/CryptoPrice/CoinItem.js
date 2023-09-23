@@ -17,8 +17,8 @@ const textStyle = {
                    <p>${props.coin.current_price}</p>
                    <p style={textStyle}>{props.coin.price_change_percentage_24h.toLocaleString()}%</p>
                    <p>${props.coin.market_cap_change_24h.toFixed(2)}</p>
-                   <p>${props.coin.total_volume.toLocaleString()}</p>
-                   <p>${props.coin.market_cap.toLocaleString()}</p>
+                   <p className="hide-coin">${props.coin.total_volume.toLocaleString()}</p>
+                   <p className="hide-coin">${props.coin.market_cap.toLocaleString()}</p>
                 </div>
                
             </div>

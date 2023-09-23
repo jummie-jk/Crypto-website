@@ -28,3 +28,38 @@
     line-height: normal;
     text-align: center;
 }
+@media screen and (max-width: 700px) {
+    .subscribe-text-main{
+        padding-top: 10rem;
+        font-size: 2rem;
+
+    }
+    .subscribe-text{
+        font-size: 1.5rem;
+    }
+    .button {
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .hide-image{
+        display: none;
+    }
+    .subscribe-text{
+        font-size: 1rem;
+        padding-bottom: 1.2rem;
+    }
+    .subscribe-block{
+        text-align: center;
+        padding-bottom: 2rem;
+        margin: 0 auto;
+    }
+    .button-subsribe{
+        text-align: center;
+        display: flex;
+        justify-items: center;
+        margin-bottom: 3rem;
+        margin-left: 3rem;
+  
+    }
+  }

@@ -85,4 +85,24 @@
     }
     
   }
+  @media screen and (min-width: 500px) and (max-width: 800px) {
+    .cryptus--logo {
+      padding-right: 1.3rem;
+    }
+    .nav--lists li {
+      font-size: 1rem;
+      padding: 0 0.5rem 0 0.5rem;
+    }
+    
+  }
+  @media screen and (max-width: 700px) {
+    .nav--list {
+      display: none;
+    }
 
+  }
+  
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+
+  }
+  

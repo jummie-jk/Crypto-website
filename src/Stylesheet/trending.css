@@ -66,7 +66,35 @@
   
 }
 @media screen and (max-width: 920px) {
- 
+  .trending-coins-all li{
+    padding: 1.5rem 1rem;
+}
+  .trending-img{
+    height: 5rem;
+    width: 5rem;
+  }
+.trending-name{
+    font-size: 1.5rem;
+}
+  
+}
+@media screen and (max-width: 700px) {
+  
+  .trending-coins-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    /* padding-bottom: 3rem; */
+    text-align: center;
+}
+.trending-img{
+  height: 15rem;
+  width: 15rem;
+}
+.trending-name{
+  font-size: 3.5rem;
+}
   
 }
 

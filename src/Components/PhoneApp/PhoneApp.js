@@ -20,7 +20,7 @@ const PhoneApp = () => {
             <img src={buttonB} alt="A button"></img>
           </div>
         </div>
-        <div className="phone-image">  <img src={phoneImage} alt="A Phone"></img></div>
+        <div className="phone-image">  <img src={phoneImage} alt="A Phone"className="phone-image"></img></div>
       </div>
     </>
   );

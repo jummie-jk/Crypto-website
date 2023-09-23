@@ -33,3 +33,13 @@
         padding: 1rem 4rem;
      }
   }
+  @media screen and (max-width: 700px) {
+    .footer-flex p{
+        padding: 1.5rem 2rem;
+     }
+  }
+  @media screen and (max-width: 500px) {
+    .footer-flex p{
+        padding: 1rem 1rem;
+     }
+  }

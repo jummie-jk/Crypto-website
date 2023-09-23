@@ -49,3 +49,44 @@
           }
     
   }
+  @media screen and (max-width: 800px) {
+    .phone--text h3{
+      font-size: 3.5rem;
+    }
+    .phone--text p{
+      padding-top: 1rem;
+      font-size: 1.8rem;
+    }
+    .phone-section{
+      padding: 10rem 10rem; 
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-items: center;
+      align-items: center;
+    }
+    .phone--btn :first-child{
+      padding-right: 0rem;
+      padding-bottom: 1rem;
+    }
+    .phone--btn{
+      padding: 3rem 0rem;
+    }
+
+}
+@media screen and (min-width: 321px) and (max-width: 600px) {
+  .phone--text h3{
+    font-size: 2.5rem;
+  }
+  .phone--text p{
+    font-size: 1.4rem;
+  }
+  .phone-image{
+    height: 30rem ;
+    width: 24rem;
+  }
+  .phone-section{
+    background: #1b004e;
+    padding: 10rem 5rem;
+  }
+}

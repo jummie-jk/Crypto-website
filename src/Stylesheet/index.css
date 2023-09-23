@@ -64,6 +64,16 @@ ul {
     }
   
 }
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .hero--Section {
+    background-color:  #220076;
+    height: 100vh;
+  }
+  .hide-mobile{
+    display: none;
+  }
+  
+}
 @media screen and (min-width: 321px) and (max-width: 480px) {
   .hero--Section {
     background-color: ( #220076);
@@ -72,15 +82,34 @@ ul {
   .hide-mobile{
     display: none;
   }
+  .hero--text {
+    margin-top: 15rem;
+    color: white;
+    font-style: normal;
+  }
+  .hero--text--main {
+    font-family: Poppins;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .hero--text p {
+    font-family: Inter;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+  }
+  .hero--content {
+    display: flex;
+    text-align: center;
+    flex-direction: center;
+    justify-content: center;
+  }
+  .hero--text--main {
+    font-family: Poppins;
+    font-size: 4.5rem;
+    font-style: normal;
 }
-@media screen and (min-width: 500px) and (max-width: 800px) {
-  .hero--Section {
-    background-color: ( #220076);
-    height: 100vh;
-  }
-  .hide-mobile{
-    display: none;
-  }
 }
 
 

@@ -27,10 +27,10 @@ const Navbar = () => {
               <li><Link to="/crypto" className='nav--list'>Pricing</Link></li>
               <li><Link to="/contact" className='nav--list'>Contact</Link></li>
               <li>
-                <Button className="button btn btn-primary" to="/signup">Sign Up</Button>
+                <Button className="button btn btn-primary hide-button" to="/signup">Sign Up</Button>
               </li>
               <li>
-                <Button className="button btn" to="/signin">Sign In</Button>
+                <Button className="button btn hide-button" to="/signin">Sign In</Button>
               </li>
             </ul>
           </nav>

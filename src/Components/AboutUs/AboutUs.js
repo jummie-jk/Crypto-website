@@ -10,13 +10,13 @@ const AboutUs = () => {
             <div className="aboutus--main--text"><p>The most trusted cryptocurrency platform</p></div>
             <div className="about-us-list">
                 <div>
-                    <img src={iconA} alt=""></img>
+                    <img src={iconA} alt="" ></img>
                     <h3>Ease of Trading</h3>
                     <p>Intuitive interface</p>
                     <p>Instant deposit options</p>
                     <p>Cash out directly to your bank account</p>
                 </div>
-                <div>
+                <div className="about-middle">
                 <img src={iconB} alt=""></img>
                     <h3>Institutional-grade Security</h3>
                     <p>98% of assets stored safely offline</p>

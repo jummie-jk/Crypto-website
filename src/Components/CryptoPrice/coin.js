@@ -12,8 +12,8 @@ const Coins = (props) => {
                         <p>Current price</p>
                         <p>24hrs %</p>
                         <p>Mkt cap 24</p>
-                        <p>Volume 24hrs</p>
-                        <p>Mkt cap</p>
+                        <p className="hide-coin">Volume 24hrs</p>
+                        <p className="hide-coin">Mkt cap</p>
                     </div>
                 </div>
                 {props.coin.map(coin => {

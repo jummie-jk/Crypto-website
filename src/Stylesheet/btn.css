@@ -52,3 +52,8 @@
     width: 20rem;
     margin-bottom: 1.5rem;
   }
+  @media screen and (max-width: 700px) {
+    .hide-button {
+      display: none;
+    }
+  }

@@ -71,3 +71,24 @@
           }
     
   }
+  @media screen and (max-width: 700px) {
+ .hide-coin{
+  display: none;
+ }
+ .crypto--page {
+  background: #1b004e;
+  height: 80vh;
+  color: white;
+}
+.coins--list{
+  margin: 1rem 2rem;
+  padding: 1rem 4rem;
+
+}
+.coins--list-heading{
+  padding: 1rem 4rem;
+}
+.crypto--page {
+  padding: 7rem 0rem;
+}
+}

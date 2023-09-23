@@ -61,7 +61,7 @@ function SignUp() {
         <div className="login--page--form">
           <form onSubmit={handleSubmit}>
             <p className="login--text">Sign Up</p>
-            <p>{name}</p>
+            <p>Name: </p>
             <input
               type="text"
               name="name"

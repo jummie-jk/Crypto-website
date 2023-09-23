@@ -98,3 +98,9 @@
   }
 
 }
+@media screen and (max-width: 300px) {
+  .phone-image{
+    height: 26rem ;
+    width: 24rem;
+  }
+}

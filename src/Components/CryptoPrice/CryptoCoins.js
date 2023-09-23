@@ -49,13 +49,13 @@ function CryptoPrice() {
 
   return (
     <div className="crypto--page">
-      <motion.div 
+        <p className="crypto--text">Today's Cryptocurrency Price</p>
+        <motion.div 
         ref={elementRef}
         initial={{ opacity: 0, y: 50 }}
         animate={controls}
         transition={{ duration: 1 }}
       >
-        <p className="crypto--text">Today's Cryptocurrency Price</p>
         <Coins coin={coin} />
       </motion.div>
     </div>

@@ -1,7 +1,7 @@
 .crypto--page {
     background: #1b004e;
-    height: 100vh;
     color: white;
+    padding-bottom: 5rem;
   }
   .crypto--text {
     color: var(--white, #fff);
@@ -77,7 +77,6 @@
  }
  .crypto--page {
   background: #1b004e;
-  height: 80vh;
   color: white;
 }
 .coins--list{
@@ -95,7 +94,6 @@
 @media screen and (min-width: 300px) and (max-width: 400px) {
   .crypto--page {
     background: #1b004e;
-    height: 100vh;
     color: white;
     padding-bottom: 5rem;
   }

@@ -66,8 +66,7 @@
       align-items: center;
     }
     .phone--btn :first-child{
-      padding-right: 0rem;
-      padding-bottom: 1rem;
+      padding-right: 1rem;
     }
     .phone--btn{
       padding: 3rem 0rem;
@@ -89,4 +88,13 @@
     background: #1b004e;
     padding: 10rem 5rem;
   }
+}
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .phone--text h3{
+    font-size: 2rem;
+  }
+  .phone--text p{
+    font-size: 1rem;
+  }
+
 }

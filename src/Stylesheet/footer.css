@@ -43,3 +43,8 @@
         padding: 1rem 1rem;
      }
   }
+  @media screen and (min-width: 300px) and (max-width: 400px) {
+    .footer-flex p{
+        padding: 0.3rem 0.3rem;
+     }
+  }

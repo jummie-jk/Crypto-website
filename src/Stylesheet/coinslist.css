@@ -92,3 +92,14 @@
   padding: 7rem 0rem;
 }
 }
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .crypto--page {
+    background: #1b004e;
+    height: 100vh;
+    color: white;
+    padding-bottom: 5rem;
+  }
+  .crypto--text {
+    padding-top: 2rem;}
+
+}

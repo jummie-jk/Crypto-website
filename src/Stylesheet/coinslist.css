@@ -93,6 +93,8 @@
 .hide-crypto {
   display: none;
 }
+.crypto--text {
+  padding-top: 2rem;}
 }
 @media screen and (min-width: 300px) and (max-width: 400px) {
   .crypto--page {

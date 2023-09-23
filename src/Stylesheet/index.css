@@ -80,7 +80,7 @@ ul {
 @media screen and (min-width: 321px) and (max-width: 480px) {
   .hero--Section {
     background-color:  #220076;
-    height: 80vh;
+    height: 75vh;
   }
   .hide-mobile{
     display: none;

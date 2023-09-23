@@ -8,7 +8,7 @@ const textStyle = {
         <>
             <div>
                 <div className="coins--list .coin--underline">
-                   <p className="hide-crypto">{props.coin.market_cap_rank}</p>
+                   <p>{props.coin.market_cap_rank}</p>
                    <div className="coin--description">
                      <img className="coin--img" src={props.coin.image} alt="bitcoin"/>
                      <p>{props.coin.name}</p>

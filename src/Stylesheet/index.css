@@ -72,11 +72,14 @@ ul {
   .hide-mobile{
     display: none;
   }
+  .hero--text p {
+   padding-bottom: 5rem;
+  }
   
 }
 @media screen and (min-width: 321px) and (max-width: 480px) {
   .hero--Section {
-    background-color: ( #220076);
+    background-color:  #220076;
     height: 100vh;
   }
   .hide-mobile{
@@ -84,20 +87,14 @@ ul {
   }
   .hero--text {
     margin-top: 15rem;
-    color: white;
     font-style: normal;
   }
   .hero--text--main {
-    font-family: Poppins;
-    font-size: 5rem;
-    font-style: normal;
-    font-weight: 700;
+    font-size: 4rem;
   }
   .hero--text p {
-    font-family: Inter;
     font-size: 1.7rem;
-    font-weight: 400;
-    line-height: 2.8rem;
+    padding-bottom: 3rem;
   }
   .hero--content {
     display: flex;
@@ -111,5 +108,13 @@ ul {
     font-style: normal;
 }
 }
-
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 45%;
+  }
+  .hero--text p {
+    font-size: 1.7rem;
+    padding-bottom: 3rem;
+  }
+}
 

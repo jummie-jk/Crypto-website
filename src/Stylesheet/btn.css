@@ -56,4 +56,8 @@
     .hide-button {
       display: none;
     }
+    .btn-secondary {
+      width: 13rem;
+      margin: 0 auto;
+    }
   }

@@ -1,5 +1,5 @@
 import React from "react";
-import iconA from "../../images/iconb.svg"
+import iconA from "../../images/icon.svg"
 import iconB from "../../images/iconb.svg"
 import iconC from "../../images/iconc.svg"
 const AboutUs = () => {

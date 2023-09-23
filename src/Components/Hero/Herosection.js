@@ -1,13 +1,13 @@
 import React from "react";
 import Navbar from "./NavBar";
 import Button from "./button";
-import coin from "../images/coin.png";
-import CryptoPrice from "./CryptoCoins";
-import AboutUs from "./AboutUs";
-import PhoneApp from "./PhoneApp";
-import CryptoNews from "./CryptoNews";
-import Subscribe from "./Subscribe";
-import Footer from "./footer";
+import coin from "../../images/coin.png";
+import CryptoPrice from "../CryptoPrice/CryptoCoins";
+import AboutUs from "../AboutUs/AboutUs";
+import PhoneApp from "../PhoneApp/PhoneApp";
+import CryptoNews from "../TrendingCrypto/CryptoNews";
+import Subscribe from "../Subscribe/Subscribe";
+import Footer from "../Footer/footer";
 function Hero() {
   return (
     <>

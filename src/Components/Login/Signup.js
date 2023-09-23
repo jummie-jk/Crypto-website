@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Button from "./button";
+import Button from "../Hero/button";
 import { Link } from "react-router-dom";
 import axios from "axios";
 
@@ -61,7 +61,7 @@ function SignUp() {
         <div className="login--page--form">
           <form onSubmit={handleSubmit}>
             <p className="login--text">Sign Up</p>
-            <p>Name:</p>
+            <p>{name}</p>
             <input
               type="text"
               name="name"

@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "./button";
-import shapeA from "../images/shapeA.png"
-import shapeB from "../images/shapeB.png"
+import Button from "../Hero/button";
+import shapeA from "../../images/shapeA.png"
+import shapeB from "../../images/shapeB.png"
 const Subscribe = () => {
    
     

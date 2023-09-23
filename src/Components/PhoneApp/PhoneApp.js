@@ -1,7 +1,7 @@
 import React from "react";
-import buttonA from "../images/BtnA.png"
-import buttonB from "../images/BtnB.png"
-import phoneImage from "../images/phone-img.png"
+import buttonA from "../../images/BtnA.png"
+import buttonB from "../../images/BtnB.png"
+import phoneImage from "../../images/phone-img.png"
 const PhoneApp = () => {
   return (
     <>

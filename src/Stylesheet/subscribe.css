@@ -68,8 +68,10 @@
     }
   }
   @media screen and (max-width: 500) {
+    .subscribe-main{
+        padding-top: 1.5rem;
+    }
     .subscribe-text-main{
-        padding-top: 4rem;
-
+        padding-top: 3rem;
     }
   }

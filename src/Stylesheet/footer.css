@@ -46,7 +46,7 @@
   }
   @media screen and (min-width: 300px) and (max-width: 400px) {
     .footer-flex p{
-        padding: 0rem 0rem;
+        padding: 0.3rem 0.3rem;
         font-size: 0.8rem;
      }
   }

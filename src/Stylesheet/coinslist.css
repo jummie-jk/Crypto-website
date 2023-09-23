@@ -103,3 +103,15 @@
     padding-top: 2rem;}
 
 }
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .crypto--text {
+   font-size: 2rem;
+  }
+  .coins--list{
+    margin: 1rem 2rem;
+    padding: 1rem 3rem;
+  }
+  .coins--list-heading{
+    font-size: 1rem;
+  }
+}

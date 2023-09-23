@@ -59,3 +59,13 @@
       padding-bottom: 3rem;
     }
 }
+@media screen and (max-width: 400px) {
+  .aboutus--main--text{
+    padding-top: 4rem;;
+    font-size: 2.8rem;
+  }
+  .about-us-list p{
+    font-size: 1.5rem;
+  }
+
+}

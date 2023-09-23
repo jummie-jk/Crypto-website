@@ -42,6 +42,10 @@
     }
   }
   @media screen and (max-width: 600px) {
+    .subscribe-text-main{
+        padding-top: 8rem;
+
+    }
     .hide-image{
         display: none;
     }
@@ -61,5 +65,11 @@
         margin-bottom: 3rem;
         margin-left: 3rem;
   
+    }
+  }
+  @media screen and (max-width: 500) {
+    .subscribe-text-main{
+        padding-top: 4rem;
+
     }
   }

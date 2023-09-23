@@ -41,10 +41,12 @@
   @media screen and (max-width: 500px) {
     .footer-flex p{
         padding: 1rem 1rem;
+        font-size: 1rem;
      }
   }
   @media screen and (min-width: 300px) and (max-width: 400px) {
     .footer-flex p{
-        padding: 0.3rem 0.3rem;
+        padding: 0rem 0rem;
+        font-size: 0.8rem;
      }
   }
